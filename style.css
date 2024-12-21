@@ -43,7 +43,7 @@ body {background-color: #05325a;
 }  
   
 .animar {
-    transform: translateY(-80px) translateX(-200px);  
+    transform: translateY(-70px) translateX(-200px);  
 }  
 
 .navidad {
@@ -52,11 +52,11 @@ body {background-color: #05325a;
 }  
   
 h1 {
-    font-size: 30px;
+    font-size: 24px;
     color: #008000; /* Color verde */text-shadow: 2px 2px 4px #ffffff; /* Sombra de texto blanca */  
 }  
 p {
-    font-size: 20px;
+    font-size: 14px;
     color: #c51515; /* Color marrón oscuro */  
 
 }  
