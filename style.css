@@ -1,0 +1,156 @@
+body {background-color: #05325a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;  
+}  
+  
+.tarjeta {
+    position: relative;
+    width: 450px;height: 650px;
+    border: 2px solid #007f5c;
+    border-radius: 15px;
+    background-color: #e4f5f8;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;  
+}  
+  
+.arbol {
+    position: relative;
+    top: 100px;
+    left: 0%;
+    height: 300px;
+    width: 300px;
+}  
+  
+.estrella {position: absolute;
+    top: 100px;
+    left: 43%;
+    transform: translateX(-20%);
+    font-size: 100px;
+    color: gold;
+    opacity: 0;  
+}  
+  
+.santa {
+    font-size: 50px;
+    position: absolute;
+    top: 320px;
+    left: 80%;
+    transform: translateX(-50%);
+    transition: transform 1s;  
+}  
+  
+.animar {
+    transform: translateY(-120px) translateX(-250px);  
+}  
+
+.navidad {
+    text-align: center;
+    font-family: "Brush Script MT";
+}  
+  
+h1 {
+    font-size: 48px;
+    color: #008000; /* Color verde */text-shadow: 2px 2px 4px #ffffff; /* Sombra de texto blanca */  
+}  
+p {
+    font-size: 24px;
+    color: #c51515; /* Color marrón oscuro */  
+
+}  
+
+.snowflakes {  
+    position: absolute;  
+    top: 0;  
+    left: 0;  
+    width: 100%;  
+    height: 100%;  
+    pointer-events: none;  
+    z-index: 0;  
+}  
+  
+.snowflake1 {  
+    position: absolute;  
+    top: -10%;  
+    left: 20%;  
+    font-size: 1.5em;  
+    color: white;  
+    opacity: 0.8;  
+    animation: fall 8s linear infinite;  
+} 
+
+.snowflake2 {  
+    position: absolute;  
+    top: -10%;  
+    left: 40%;  
+    font-size: 1.5em;  
+    color: white;  
+    opacity: 0.8;  
+    animation: fall 8s linear infinite;  
+}  
+  
+.snowflake3 {  
+    position: absolute;  
+    top: -5%;  
+    left: 60%;  
+    font-size: 1.5em;  
+    color: white;  
+    opacity: 0.8;  
+    animation: fall 8s linear infinite;  
+} 
+
+.snowflake4 {  
+    position: absolute;  
+     
+    left: 70%;  
+    font-size: 1.5em;  
+    color: white;  
+    opacity: 0.8;  
+    animation: fall 8s linear infinite;  
+} 
+
+.snowflake5 {  
+    position: absolute;  
+    top: -10%;  
+    left: 50%;  
+    font-size: 1.5em;  
+    color: white;  
+    opacity: 0.8;  
+    animation: fall 8s linear infinite;  
+} 
+.snowflake5 {  
+    position: absolute;  
+    top: -10%;  
+    left: 70%;  
+    font-size: 1.5em;  
+    color: white;  
+    opacity: 0.8;  
+    animation: fall 8s linear infinite;  
+} 
+@keyframes fall {  
+    0% {  
+        transform: translateY(0) translateX(0);  
+    }  
+    100% {  
+        transform: translateY(110vh) translateX(20vw);  
+    }  
+}  
+.my-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    right: 30%;
+  }
+  .my-button:hover {
+    background-color: #45a049;
+  }
+  .my-button:active {
+    background-color: #3e8e41;
+  }
