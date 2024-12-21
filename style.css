@@ -1,5 +1,8 @@
 body {background-color: #05325a;
-    font-family: Arial, sans-serif;  
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }  
   
 .tarjeta {
